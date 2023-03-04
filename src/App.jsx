@@ -1,13 +1,15 @@
-import { useState } from 'react';
-import reactLogo from './assets/react.svg';
+import Header from './components/Header';
+import Main from './components/Main';
+import Sidebar from './components/Sidebar';
+
 import './App.css';
 
-function App() {
-  const [count, setCount] = useState(0);
-
+function App({ title }) {
   return (
     <div className='App'>
-      <h1>Yo</h1>
+      <Header name='Sandra' color='pink' />
+      <Main greet='Howdy' />
+      <Sidebar greet='Hi' />
     </div>
   );
 }
