@@ -6,11 +6,12 @@ import './App.css';
 import Button from './components/Button';
 import ModeToggler from './components/ModeToggler';
 import PromoHeading from './components/PromoHeading';
+import Promo from './components/Promo';
 
 function App({ title }) {
   return (
     <div className='App'>
-      <PromoHeading />
+      <Promo />
       <Header name='Sandra' color='pink' />
       <Button />
       <Header name='Matt' color='blue' />
