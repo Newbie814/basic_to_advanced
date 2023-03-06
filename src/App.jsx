@@ -5,10 +5,12 @@ import Sidebar from './components/Sidebar';
 import './App.css';
 import Button from './components/Button';
 import ModeToggler from './components/ModeToggler';
+import PromoHeading from './components/PromoHeading';
 
 function App({ title }) {
   return (
     <div className='App'>
+      <PromoHeading />
       <Header name='Sandra' color='pink' />
       <Button />
       <Header name='Matt' color='blue' />
